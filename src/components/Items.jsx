@@ -1,3 +1,5 @@
+import propTypes from 'prop-types';
+
 function Items(props){
     return(
         <div className="card">
@@ -6,6 +8,13 @@ function Items(props){
             <img src={props.image} alt="item-image" />
         </div>
     );
+}
+
+Items.propTypes = {
+    quantity: propTypes.number,
+    name: propTypes.string,
+    body: propTypes.string,
+    image: propTypes.string, 
 }
 
 export default Items;
