@@ -17,4 +17,11 @@ Items.propTypes = {
     image: propTypes.string, 
 }
 
+Items.defaultProps = {
+    quantity: 1,
+    name: 'Fruit',
+    body: 'Fruits are good for health',
+    image: 'https://picsum.photos/200/200',
+}
+
 export default Items;
