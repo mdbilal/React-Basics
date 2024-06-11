@@ -3,6 +3,7 @@ import Footer from './components/Footer.jsx';
 import Food from './components/Food.jsx';
 import Items from './components/Items.jsx';
 import Greeting from './components/Greeting.jsx';
+import ArrayMap from './components/ArrayMap.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Food />
       <Greeting isLoggedIn={true}/>
+      <ArrayMap />
       <Items />
       <Items quantity={1} name="Apple" body="an Apple a day keeps the doctor away" image="https://picsum.photos/200/300"/>
       <Items quantity={2} name="Banana" body="a Banana a day keeps the doctor away" image="https://picsum.photos/200/300"/>
