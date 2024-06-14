@@ -6,6 +6,7 @@ import Greeting from './components/Greeting.jsx';
 import ArrayMap from './components/ArrayMap.jsx';
 import ObjectMap from './components/ObjectMap.jsx';
 import ReusableList from './components/ReuseableList.jsx';
+import Click from './components/Click.jsx';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Header />
       <Food />
       <Greeting isLoggedIn={true}/>
+      <Click />
       <ArrayMap />
       <ObjectMap />
       <hr />
