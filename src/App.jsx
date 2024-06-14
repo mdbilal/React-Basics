@@ -9,6 +9,7 @@ import ReusableList from './components/ReuseableList.jsx';
 import Click from './components/Click.jsx';
 import State from './components/State.jsx';
 import Counter from './components/Counter.jsx';
+import Change from './components/Change.jsx';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Greeting isLoggedIn={true}/>
       <Click />
       <Counter />
+      <Change />
       <State />
       <ArrayMap />
       <ObjectMap />
