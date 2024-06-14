@@ -8,6 +8,7 @@ import ObjectMap from './components/ObjectMap.jsx';
 import ReusableList from './components/ReuseableList.jsx';
 import Click from './components/Click.jsx';
 import State from './components/State.jsx';
+import Counter from './components/Counter.jsx';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Food />
       <Greeting isLoggedIn={true}/>
       <Click />
+      <Counter />
       <State />
       <ArrayMap />
       <ObjectMap />
