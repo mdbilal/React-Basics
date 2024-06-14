@@ -7,6 +7,7 @@ import ArrayMap from './components/ArrayMap.jsx';
 import ObjectMap from './components/ObjectMap.jsx';
 import ReusableList from './components/ReuseableList.jsx';
 import Click from './components/Click.jsx';
+import State from './components/State.jsx';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Food />
       <Greeting isLoggedIn={true}/>
       <Click />
+      <State />
       <ArrayMap />
       <ObjectMap />
       <hr />
