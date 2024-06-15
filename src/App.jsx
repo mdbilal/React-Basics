@@ -11,6 +11,7 @@ import State from './components/State.jsx';
 import Counter from './components/Counter.jsx';
 import Change from './components/Change.jsx';
 import ColorPicker from './components/ColorPicker.jsx';
+import Updater from './components/Updater.jsx';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
       <Greeting isLoggedIn={true}/>
       <Click />
       <Counter />
+      <Updater />
       <ColorPicker />
       <Change />
       <State />
