@@ -4,7 +4,7 @@ function ArrayState(){
 
     const [array, setArray] = useState(['apple', 'banana', 'mango', 'grapes']);
 
-    const addFruit = () => {
+    const addItem = () => {
         const item = document.getElementById('fruits').value;
         document.getElementById('fruits').value = '';
         setArray( prevArray => [...prevArray , item]);
@@ -17,7 +17,7 @@ function ArrayState(){
                 {array.map((fruit, index) => <li key={index}>{fruit}</li>)}
             </ul>
             <input type="text" id="fruits" placeholder="add fruit"/>
-            <button onClick={addFruit}>Add</button>
+            <button onClick={addItem}>Add</button>
         </>
     );
 }
