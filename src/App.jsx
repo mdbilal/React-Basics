@@ -10,6 +10,7 @@ import Click from './components/Click.jsx';
 import State from './components/State.jsx';
 import Counter from './components/Counter.jsx';
 import Change from './components/Change.jsx';
+import ColorPicker from './components/ColorPicker.jsx';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <Greeting isLoggedIn={true}/>
       <Click />
       <Counter />
+      <ColorPicker />
       <Change />
       <State />
       <ArrayMap />
