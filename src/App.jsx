@@ -14,6 +14,7 @@ import ColorPicker from './components/ColorPicker.jsx';
 import Updater from './components/Updater.jsx';
 import ObjectState from './components/ObjectState.jsx';
 import ArrayState from './components/ArrayState.jsx';
+import ObjectArray from './components/ObjectArray.jsx';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
       <Updater />
       <ObjectState />
       <ArrayState />
+      <ObjectArray />
       <ColorPicker />
       <Change />
       <State />
